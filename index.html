@@ -75,14 +75,7 @@ function updateGameArea() {
 }
  
 
-        pos.x += step.x;
-        pos.y += step.y;
-        context.fillRect(pos.x, pos.y, 32, 32);
-        if (Math.round(pos.x - endPos.x) + Math.round(pos.y - endPos.y) == 0) {
-            lastPos = pos;
-            return;
-        }
-        setTimeout(drawStep, 20);
+       
     }
 }
 </script>
