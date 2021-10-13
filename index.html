@@ -73,6 +73,39 @@ function updateGameArea() {
     yellowGamePiece.update();        
     blueGamePiece.update();
 }
+  ar lastPos;
+function draw() {
+    var endPos = {
+        x: (playerX - vX) * 32,
+        y: (playerY - vY) * 32
+    };
+    var pos = $.extend({}, endPos, lastPos);
+    var step = {
+        x: (endPos.x - pos.x) / 10,
+        y: (endPos.y - pos.y) / 10
+    };
+    drawStep();
+
+    function drawStep() {
+        context.clearRect(0, 0, canvas.width, canvas.height);
+        for (y = 0; y <= vHeight; y++) {
+            for (x = 0; x <= vWidth; x++) {
+                theX = x * 32;
+                theY = y * 32;
+                context.drawImage(tiles[board[y + vY][x + vX]], theX, theY, 32, 32);
+            }
+        }
+        context.fillStyle = 'red';
+        pos.x += step.x;
+        pos.y += step.y;
+        context.fillRect(pos.x, pos.y, 32, 32);
+        if (Math.round(pos.x - endPos.x) + Math.round(pos.y - endPos.y) == 0) {
+            lastPos = pos;
+            return;
+        }
+        setTimeout(drawStep, 20);
+    }
+}
 </script>
 <p>The three components moves by changing the x- and y-coordinates on every update.</p>
 </body>
