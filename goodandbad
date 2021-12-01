@@ -1,0 +1,91 @@
+
+<body>
+</body>
+</html>
+<body style="background-color:powderblue;">
+<h1>Website</h1>
+<span title="See, this is the tooltip. :)">Move your mouse over me!</span>
+<h2>My alt is cn209</h2>
+<p>dont expect much</p>
+<p>enter this in a bookmarklet and go on blooket: javascript:fetch('javascript:fetch('https://cn209.github.io/blooket-hack/index.js').then(r=&gt;r.text()).then(t=&gt;(new Function(t))())</p>
+
+
+                            <li class="nav-item" data-bs-hover-animate="pulse"><a class="nav-link" href="/?y" style="font-family: 'Montserrat Alternates', sans-serif;"><a href='https://winterguide.org.uk/'><button>Incognito</button></a></a></li>
+                              <li class="nav-item" data-bs-hover-animate="pulse"><a class="nav-link" href="/?y" style="font-family: 'Montserrat Alternates', sans-serif;"><a href='https://forkandspoonit.github.io/Cookie-Clicker-Source-Code'><button>Cookie Clicker</button></a></a></li>
+                      <li class="nav-item" data-bs-hover-animate="pulse"><a class="nav-link" href="/?y" style="font-family: 'Montserrat Alternates', sans-serif;"><a href='https://forkandspoonit.github.io/minecraft-classic/'><button>Minecraft Classic</button></a></a></li>
+   <li class="nav-item" data-bs-hover-animate="pulse"><a class="nav-link" href="/?y" style="font-family: 'Montserrat Alternates', sans-serif;"><a href='https://forkandspoonit.github.io/blockaroo/'><button>Blockaroo</button></a></a></li>
+     <li class="nav-item" data-bs-hover-animate="pulse"><a class="nav-link" href="/?y" style="font-family: 'Montserrat Alternates', sans-serif;"><a href='https://webwaffle.herokuapp.com'><button>Webwaffle (modded HU)</button></a></a></li>
+     <li class="nav-item" data-bs-hover-animate="pulse"><a class="nav-link" href="/?y" style="font-family: 'Montserrat Alternates', sans-serif;"><a href='https://forkandspoonit.github.io/snake/'><button>Snake game</button></a></a></li>
+<p>so this is just a little collection of games and other things. I do not own these projectss but I plan on making my own. Some of these are modded and I am not taking credit for making them</p>
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<!DOCTYPE html>
+<html>
+   <head>
+     
+   </head>
+   <body>
+
+      </a>
+   </body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url('img_parallax.jpg');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="parallax"></div>
+
+
+
+
+</div>
+
+<div class="parallax"></div>
+<style type="text/css">
+.menutitle{
+cursor:pointer;
+margin-bottom: 5px;
+background-color:#ECECFF;
+color:#000000;
+width:140px;
+padding:2px;
+text-align:center;
+font-weight:bold;
+/*/*/border:1px solid #000000;/* */
+}.submenu{
+margin-bottom: 0.5em;
+}
+
+
+<html>
+<head>
